@@ -157,32 +157,23 @@ button:focus{
 	line-height: 16px;
 	color: #00B007;
 }
-.display10{
-	color: white;
-}
 .box300{
-	display: none;
+	/*display: none;*/
 
+}
+.display10{
+	display: none;
 }
 .drop-list{
 	background: #0055B8;
-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-.drop-list a{
-	font-weight: 0;
-font-size: 0px;
-line-height:0px;
-text-transform: uppercase;
-padding: 23px 146px;
-color: #FFD600;
-}
 .drop{
-	position: relative;
-	display: block;
+	display: none;
 }
 .drop:hover .drop-list{
-border: 1px solid #FFD600;
+	border: 1px solid #FFD600;
 
 }
 .drop:hover  .drop-ul{
@@ -190,10 +181,33 @@ border: 1px solid #FFD600;
 }
 
 .drop:hover .drop-list a{
-		font-weight: 500;
+	font-weight: 500;
 	font-size: 18px;
 	line-height: 21px;
 }
+.box300{
+	display: none;
+}
+
+@media only screen and (max-width: 375px) {
+.display10{
+	color: white;
+}
+.drop-list a{
+	font-weight: 0;
+	font-size: 0px;
+	line-height:0px;
+	text-transform: uppercase;
+	padding: 23px 146px;
+	color: #FFD600;
+}
+	.box300{
+	background-color: #0055B8;
+		display: flex;
+		justify-content: space-between;
+		padding: 24px 28px;
+		width: 375px;
+	}
 .drop-ul{
 	background-color: #0055B8;
 	position: absolute;
@@ -202,16 +216,9 @@ border: 1px solid #FFD600;
 	left: -380px;
 	top: 40px;
 }
-.box300{
-	background-color: #0055B8;
-}
-
-@media only screen and (max-width: 375px) {
-	.box300{
-	display: flex;
-	justify-content: space-between;
-	padding: 24px 28px;
-	width: 375px;
+	.drop{
+		position: relative;
+	display: block;
 	}
 	.rectangl{
 		display: none;
@@ -219,18 +226,18 @@ border: 1px solid #FFD600;
 	.navbar{
 		display: none;
 	}
-  
+
 }
 
 @media only screen and (max-width: 1024px) {
-  .site-header{
-    position: absolute;
-    display: none;
-  }
-  .top-site{
-    position: absolute;
-    display: none;
-  }
+	.site-header{
+		position: absolute;
+		display: none;
+	}
+	.top-site{
+		position: absolute;
+		display: none;
+	}
 }
 
 /*end*/
@@ -301,16 +308,16 @@ border: 1px solid #FFD600;
 }
 
 @media only screen and (max-width: 1024px) {
-  .rectangl{
-  position: absolute;
-  top:0;
-  margin-top: 0;
-  width: 100vw;
-  background-clip: #0055B8;
-  }
-  .display{
-  display: flex;
-  }
+	.rectangl{
+		position: absolute;
+		top:0;
+		margin-top: 0;
+		width: 100vw;
+		background-clip: #0055B8;
+	}
+	.display{
+		display: flex;
+	}
 
 
 }
@@ -393,16 +400,16 @@ border: 1px solid #FFD600;
 }
 
 @media only screen and (max-width: 1024px){
-  .section1{
-  background-size: 7977px 7989px;
-  background-position: left 190px top 40px;
-  background-size: 1000px;
-  width: 150vw;
-  }
-  .section2{
-  margin-top: 0;
-  margin-top: 100px;
-}
+	.section1{
+		background-size: 7977px 7989px;
+		background-position: left 190px top 40px;
+		background-size: 1000px;
+		width: 150vw;
+	}
+	.section2{
+		margin-top: 0;
+		margin-top: 100px;
+	}
 }
 
 /*end*/
@@ -578,24 +585,24 @@ border: 1px solid #FFD600;
 }
 
 @media only screen and (max-width: 1024px){
-  .child{
-  padding: 30px 16px;
-  }
-  .child2{
-  display: block;
-  background: #0055B8;
-  border-radius: 5px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 25px;
-  padding-bottom: 8px;
-  position: absolute;
-  right: 0px;
-  left: 510px;
-  top: -59px;
-  height: 359px;
-  width: 485px;
-}
+	.child{
+		padding: 30px 16px;
+	}
+	.child2{
+		display: block;
+		background: #0055B8;
+		border-radius: 5px;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-top: 25px;
+		padding-bottom: 8px;
+		position: absolute;
+		right: 0px;
+		left: 510px;
+		top: -59px;
+		height: 359px;
+		width: 485px;
+	}
 }
 
 /*end*/
@@ -733,14 +740,14 @@ border: 1px solid #FFD600;
 }
 
 @media only screen and (max-width: 1024px){
-  .chil100{
-    position: absolute;
-    display: none;
-  }
-  .list11{
-	margin-left: 0px;
-	margin-right: 0px;
-}
+	.chil100{
+		position: absolute;
+		display: none;
+	}
+	.list11{
+		margin-left: 0px;
+		margin-right: 0px;
+	}
 }
 
 /*end
